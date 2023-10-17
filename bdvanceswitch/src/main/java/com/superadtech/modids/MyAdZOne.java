@@ -61,6 +61,13 @@ public class MyAdZOne {
     public Dialog dialog;
 
     public static String All_Ads_Show;
+
+    public static String Install_Ref_Activate;
+    public static String Install_Ref1;
+    public static String Install_Ref2;
+    public static String Install_Ref3;
+    public static String Install_Ref4;
+
     public static String App_Debug_Mode = "true";
     public static String Dialog_Show;
     public static String app_updateAppDialogStatus;
@@ -276,6 +283,12 @@ public class MyAdZOne {
         Log.e("trackers", "configDatas: Response init");
 
         All_Ads_Show = jsonObject.getString("All_Ads_Show");
+
+        Install_Ref_Activate = jsonObject.getString("Install_Ref_Activate");
+        Install_Ref1 = jsonObject.getString("Install_Ref1");
+        Install_Ref2 = jsonObject.getString("Install_Ref2");
+        Install_Ref3 = jsonObject.getString("Install_Ref3");
+        Install_Ref4 = jsonObject.getString("Install_Ref4");
 
         App_Debug_Mode = jsonObject.getString("App_Debug_Mode");
 
