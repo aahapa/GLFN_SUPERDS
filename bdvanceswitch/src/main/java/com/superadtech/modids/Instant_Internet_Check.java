@@ -1,5 +1,6 @@
 package com.superadtech.modids;
 
+import static com.superadtech.modids.Constant_Super.installReferrer;
 import static com.superadtech.modids.MyAdZOne.Install_Ref1;
 import static com.superadtech.modids.MyAdZOne.Install_Ref2;
 import static com.superadtech.modids.MyAdZOne.Install_Ref3;
@@ -47,7 +48,7 @@ public class Instant_Internet_Check {
                 if (responseCode == InstallReferrerClient.InstallReferrerResponse.OK) {
                     try {
                         ReferrerDetails response = referrerClient.getInstallReferrer();
-                        String installReferrer = response.getInstallReferrer();
+                        installReferrer = response.getInstallReferrer();
 
                         if (installReferrer != null) {
                             if (Install_Ref_Activate.equals("true")) {
