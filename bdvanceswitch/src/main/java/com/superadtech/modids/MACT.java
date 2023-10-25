@@ -1,24 +1,23 @@
 package com.superadtech.modids;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MACT extends AppCompatActivity {
     Handler handlerr = new Handler(Looper.getMainLooper());
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         getCurrentVersionCode(this);
     }
+
     public static int getCurrentVersionCode(Activity context) {
         PackageManager manager = context.getPackageManager();
         PackageInfo info = null;
@@ -33,8 +32,8 @@ public class MACT extends AppCompatActivity {
         return 0;
     }
 
-    public static void CheckInternet(Activity activity, Intent intent1, String url) {
-        MyAminManage.getInstance(activity).ADSinit(activity, intent1, url,getCurrentVersionCode(activity));
+    public static void CheckInternet(Activity activity, String url, GetLoadAsds.MySpalshCallback mySpalshCallback) {
+        MyAminManage.getInstance(activity).ADSinit(activity, mySpalshCallback, url, getCurrentVersionCode(activity));
     }
 
     @Override
@@ -60,5 +59,4 @@ public class MACT extends AppCompatActivity {
         super.onBackPressed();
         handlerr.removeCallbacksAndMessages(null);
     }
-
 }

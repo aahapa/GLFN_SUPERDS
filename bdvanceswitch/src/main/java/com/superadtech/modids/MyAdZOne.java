@@ -59,7 +59,6 @@ public class MyAdZOne {
     static MyCallback myCallback;
     static OnAdListner onAdListner;
     public Dialog dialog;
-
     public static String All_Ads_Show;
 
     public static String Install_Ref_Activate;
@@ -164,8 +163,10 @@ public class MyAdZOne {
     public static String AD_MOB_APP_ID_Native4 = "";
 
     public static String AD_MOB_OpenAd_STATUS = "";
+    public static int AD_MOB_APP_OPEN_TIMER;
     public static String AD_MOB_OpenAd_Fails_INTER_SHOW = "";
     public static String AD_MOB_SPLASH_INTER_FORCE = "";
+    public static int AD_MOB_SPLASH_INTER_TIMER;
     public static String AD_MOB_APP_ID_OpenAd1 = "";
 
     public static String Native_Background_Color = "";
@@ -395,8 +396,10 @@ public class MyAdZOne {
         }
 
         AD_MOB_OpenAd_STATUS = jsonObject.getString("AD_MOB_OpenAd_STATUS");
+        AD_MOB_APP_OPEN_TIMER = jsonObject.getInt("AD_MOB_APP_OPEN_TIMER");
         AD_MOB_OpenAd_Fails_INTER_SHOW = jsonObject.getString("AD_MOB_OpenAd_Fails_INTER_SHOW");
         AD_MOB_SPLASH_INTER_FORCE = jsonObject.getString("AD_MOB_SPLASH_INTER_FORCE");
+        AD_MOB_SPLASH_INTER_TIMER = jsonObject.getInt("AD_MOB_SPLASH_INTER_TIMER");
 
         FACEBOOK_AD_STATUS = jsonObject.getString("FACEBOOK_AD_STATUS");
 

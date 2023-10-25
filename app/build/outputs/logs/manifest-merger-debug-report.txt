@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:2:1-28:12
-MERGED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-29:12
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-30:12
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\harry\.gradle\caches\transforms-3\a40e1250b02f417d832ce00a94db772c\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\harry\.gradle\caches\transforms-3\5b8c3694bd8e727d353d0bb5d2f83a62\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:6.1.0] C:\Users\harry\.gradle\caches\transforms-3\71957e8c5ecb8bf64959e69c084d13c2\transformed\jetified-lottie-6.1.0\AndroidManifest.xml:2:1-9:12
@@ -90,29 +90,30 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\harry\.
 MERGED from [com.android.volley:volley:1.2.1] C:\Users\harry\.gradle\caches\transforms-3\2e038b0f463bc9f0d3f2411f6863b1f2\transformed\jetified-volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\harry\.gradle\caches\transforms-3\92f98adb9d867dcd33c8e91ca80290c3\transformed\multidex-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\harry\.gradle\caches\transforms-3\db21887c60b271cec99289e69eee5631\transformed\jetified-sdp-android-1.1.0\AndroidManifest.xml:2:1-11:12
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\harry\.gradle\caches\transforms-3\7efcb606c78a902b60fc03e7e5e6c7a9\transformed\jetified-installreferrer-2.2\AndroidManifest.xml:2:1-13:12
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:4:5-39
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:2:1-28:12
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:6:5-27:19
-MERGED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-27:19
-MERGED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-27:19
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:6:5-27:19
+MERGED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-28:19
+MERGED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-28:19
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\harry\.gradle\caches\transforms-3\a40e1250b02f417d832ce00a94db772c\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\harry\.gradle\caches\transforms-3\a40e1250b02f417d832ce00a94db772c\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\harry\.gradle\caches\transforms-3\5b8c3694bd8e727d353d0bb5d2f83a62\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -173,52 +174,54 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\harry\.gradle\caches\transforms-3\1ef874417f5cc7a7fbeb518e35f93d9a\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:25:5-39:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\harry\.gradle\caches\transforms-3\de956eea61c69aec9def7a9447a04cdb\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\harry\.gradle\caches\transforms-3\de956eea61c69aec9def7a9447a04cdb\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\harry\.gradle\caches\transforms-3\7efcb606c78a902b60fc03e7e5e6c7a9\transformed\jetified-installreferrer-2.2\AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\harry\.gradle\caches\transforms-3\7efcb606c78a902b60fc03e7e5e6c7a9\transformed\jetified-installreferrer-2.2\AndroidManifest.xml:11:5-20
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\harry\.gradle\caches\transforms-3\5ce9383e72be4a7db1c7b8888d654e21\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:11:9-43
 	tools:targetApi
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:14:9-29
 	android:icon
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:9:9-38
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:9:9-38
 	android:allowBackup
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:13:9-50
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:13:9-50
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:7:9-63
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:7:9-63
 activity#com.superadtech.adsmodel.MainActivity2
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:15:9-17:40
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:17:13-37
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:16:13-66
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:16:13-66
 activity#com.superadtech.adsmodel.MActivity
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:18:9-26:20
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:18:9-26:20
 	android:exported
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:19:13-62
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:19:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml:24:27-74
 uses-sdk
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
-MERGED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
+MERGED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\harry\.gradle\caches\transforms-3\a40e1250b02f417d832ce00a94db772c\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.9.0] C:\Users\harry\.gradle\caches\transforms-3\a40e1250b02f417d832ce00a94db772c\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\harry\.gradle\caches\transforms-3\5b8c3694bd8e727d353d0bb5d2f83a62\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
@@ -389,20 +392,22 @@ MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\harry\.gradle\caches\tra
 MERGED from [androidx.multidex:multidex:2.0.1] C:\Users\harry\.gradle\caches\transforms-3\92f98adb9d867dcd33c8e91ca80290c3\transformed\multidex-2.0.1\AndroidManifest.xml:20:5-43
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\harry\.gradle\caches\transforms-3\db21887c60b271cec99289e69eee5631\transformed\jetified-sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.sdp:sdp-android:1.1.0] C:\Users\harry\.gradle\caches\transforms-3\db21887c60b271cec99289e69eee5631\transformed\jetified-sdp-android-1.1.0\AndroidManifest.xml:7:5-9:41
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\harry\.gradle\caches\transforms-3\7efcb606c78a902b60fc03e7e5e6c7a9\transformed\jetified-installreferrer-2.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\harry\.gradle\caches\transforms-3\7efcb606c78a902b60fc03e7e5e6c7a9\transformed\jetified-installreferrer-2.2\AndroidManifest.xml:5:5-7:41
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.android.gms:play-services-ads:22.2.0] C:\Users\harry\.gradle\caches\transforms-3\df2760c07e243d807bf65978b57d5451\transformed\jetified-play-services-ads-22.2.0\AndroidManifest.xml:23:9-49
 	android:targetSdkVersion
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
 MERGED from [com.onesignal:OneSignal:4.8.6] C:\Users\harry\.gradle\caches\transforms-3\5110063e832bddcfbd970b74e20350f7\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:17:5-67
 MERGED from [com.onesignal:OneSignal:4.8.6] C:\Users\harry\.gradle\caches\transforms-3\5110063e832bddcfbd970b74e20350f7\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:17:5-67
 MERGED from [com.facebook.android:audience-network-sdk:6.16.0] C:\Users\harry\.gradle\caches\transforms-3\0b57c092cb76c302beaa0b8fbc49012d\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:15:5-67
@@ -418,9 +423,9 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\harry\.gradle\caches\transforms-3\45c657941f4fcd40a7a1f46e01e516e5\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\harry\.gradle\caches\transforms-3\45c657941f4fcd40a7a1f46e01e516e5\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-64
+		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
 MERGED from [com.onesignal:OneSignal:4.8.6] C:\Users\harry\.gradle\caches\transforms-3\5110063e832bddcfbd970b74e20350f7\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:25:5-79
 MERGED from [com.onesignal:OneSignal:4.8.6] C:\Users\harry\.gradle\caches\transforms-3\5110063e832bddcfbd970b74e20350f7\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:25:5-79
 MERGED from [com.facebook.android:audience-network-sdk:6.16.0] C:\Users\harry\.gradle\caches\transforms-3\0b57c092cb76c302beaa0b8fbc49012d\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:16:5-79
@@ -442,13 +447,13 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Us
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\harry\.gradle\caches\transforms-3\1ef874417f5cc7a7fbeb518e35f93d9a\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\harry\.gradle\caches\transforms-3\1ef874417f5cc7a7fbeb518e35f93d9a\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-76
+ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-76
 	android:name
-		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-73
+		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-73
 uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
 MERGED from [com.facebook.android:audience-network-sdk:6.16.0] C:\Users\harry\.gradle\caches\transforms-3\0b57c092cb76c302beaa0b8fbc49012d\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:17:5-79
 MERGED from [com.facebook.android:audience-network-sdk:6.16.0] C:\Users\harry\.gradle\caches\transforms-3\0b57c092cb76c302beaa0b8fbc49012d\transformed\jetified-audience-network-sdk-6.16.0\AndroidManifest.xml:17:5-79
 MERGED from [com.google.android.gms:play-services-ads-lite:22.2.0] C:\Users\harry\.gradle\caches\transforms-3\942db4292b45cc9c44b6e97a38e827bf\transformed\jetified-play-services-ads-lite-22.2.0\AndroidManifest.xml:26:5-79
@@ -458,19 +463,25 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\harry\.gradle\caches\transforms-3\8e69551f9e3c829a6a85bcc52df78f85\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:26:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\harry\.gradle\caches\transforms-3\8e69551f9e3c829a6a85bcc52df78f85\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:26:5-79
 	android:name
-		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-110
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\harry\.gradle\caches\transforms-3\7efcb606c78a902b60fc03e7e5e6c7a9\transformed\jetified-installreferrer-2.2\AndroidManifest.xml:9:5-110
+MERGED from [com.android.installreferrer:installreferrer:2.2] C:\Users\harry\.gradle\caches\transforms-3\7efcb606c78a902b60fc03e7e5e6c7a9\transformed\jetified-installreferrer-2.2\AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-107
 meta-data#com.google.android.gms.ads.AD_MANAGER_APP
-ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-23:36
+ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-24:36
 	android:value
-		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-33
+		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-33
 	android:name
-		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-69
+		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-69
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-26:70
+ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-27:70
 	android:value
-		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-67
+		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-67
 	android:name
-		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-69
+		ADDED from [:bdvanceswitch] G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-69
 permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:4.8.6] C:\Users\harry\.gradle\caches\transforms-3\5110063e832bddcfbd970b74e20350f7\transformed\jetified-OneSignal-4.8.6\AndroidManifest.xml:7:5-9:47
 	android:protectionLevel

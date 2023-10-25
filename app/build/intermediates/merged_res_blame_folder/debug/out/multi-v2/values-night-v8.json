@@ -21,7 +21,26 @@
                     }
                 },
                 {
-                    "source": "G:\\AAHAPA\\Ads_Class\\Google_Facebook_Ad_Class\\bdvanceswitch\\build\\intermediates\\packaged_res\\debug\\values-night-v8\\values-night-v8.xml",
+                    "source": "G:\\AAHAPA\\Ads_Class\\GLFN_SUPERDS\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "835"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "732",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "1330"
+                    }
+                },
+                {
+                    "source": "G:\\AAHAPA\\Ads_Class\\GLFN_SUPERDS\\bdvanceswitch\\build\\intermediates\\packaged_res\\debug\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,11",
                         "startColumns": "4,4",
@@ -37,25 +56,6 @@
                         "endLines": "57,68",
                         "endColumns": "12,12",
                         "endOffsets": "4765,5835"
-                    }
-                },
-                {
-                    "source": "G:\\AAHAPA\\Ads_Class\\Google_Facebook_Ad_Class\\app\\src\\main\\res\\values-night\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "821"
-                    },
-                    "to": {
-                        "startLines": "9",
-                        "startColumns": "4",
-                        "startOffsets": "732",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "1330"
                     }
                 },
                 {

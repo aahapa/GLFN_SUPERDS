@@ -1,8 +1,10 @@
 package com.superadtech.modids;
 
-import static com.superadtech.modids.MyAdZOne.AD_MOB_APP_ID_Collapsible_Banner_Show;
+import static com.superadtech.modids.MyAdZOne.AD_MOB_APP_OPEN_TIMER;
 import static com.superadtech.modids.MyAdZOne.AD_MOB_OpenAd_Fails_INTER_SHOW;
+import static com.superadtech.modids.MyAdZOne.AD_MOB_OpenAd_STATUS;
 import static com.superadtech.modids.MyAdZOne.AD_MOB_SPLASH_INTER_FORCE;
+import static com.superadtech.modids.MyAdZOne.AD_MOB_SPLASH_INTER_TIMER;
 import static com.superadtech.modids.MyAdZOne.All_Ads_Show;
 import static com.superadtech.modids.MyAdZOne.app_BannerPeriority;
 import static com.superadtech.modids.MyAdZOne.app_NativeAdCodeType;
@@ -50,12 +52,16 @@ public class GetLoadAsds {
     public static String mode = "";
     public static boolean isShowOpen = false;
     public static AppOpenManager appOpenManager;
-    public static Intent intent;
     public static boolean need_internet = false;
     public static boolean is_retry;
     public static Handler refreshHandler;
     public static Runnable runnable;
     public static int vercode;
+    static MySpalshCallback mySpalshCallback;
+
+    public interface MySpalshCallback {
+        void onSuccessSplashMethod();
+    }
 
     public GetLoadAsds(Activity activity1) {
         activity = activity1;
@@ -69,8 +75,9 @@ public class GetLoadAsds {
         return getLoadAsds;
     }
 
-    public void sendRequest(String model, Intent intent1, final int cversion) {
+    public void sendRequest(String model, MySpalshCallback mySpalshCallback, final int cversion) {
         need_internet = !model.isEmpty();
+        Constant_Super.mySpalshCallback = mySpalshCallback;
 
         vercode = cversion;
         final Dialog dialog = new Dialog(activity);
@@ -101,7 +108,6 @@ public class GetLoadAsds {
             }
         };
 
-        intent = intent1;
         try {
             mode = AESSUtils.Logd(model);
         } catch (Exception e) {
@@ -139,7 +145,6 @@ public class GetLoadAsds {
                     } else {
                         Toast.makeText(activity, "Not Found Data!!!", Toast.LENGTH_LONG).show();
                     }
-
                 } catch (Exception e) {
                     if (need_internet) {
                         dialog.dismiss();
@@ -199,7 +204,6 @@ public class GetLoadAsds {
         Log.e("TAG", "getInlize: ");
         if (All_Ads_Show.equalsIgnoreCase("true")) {
             AudienceNetworkAds.initialize(activity);
-
             MobileAds.initialize(activity, new OnInitializationCompleteListener() {
                 @Override
                 public void onInitializationComplete(InitializationStatus initializationStatus) {
@@ -247,28 +251,20 @@ public class GetLoadAsds {
             return;
         }
 
-        isShowOpen = false;
-        AppOpenManager.OnAppOpenClose onAppOpenClose = new AppOpenManager.OnAppOpenClose() {
-            @Override
-            public void OnAppOpenFailToLoad() {
-                if (isShowOpen) {
-                    isShowOpen = false;
-
-                    final Handler handler = new Handler();
-                    handler.postDelayed(new Runnable() {
-                        @Override
-                        public void run() {
-                            MyAdZOne.appOpenFailLoadeds(new MyAdZOne.OnAdListner() {
-                                @Override
-                                public void OnClose() {
-                                    if (AD_MOB_SPLASH_INTER_FORCE.equalsIgnoreCase("true")) {
-                                        MyAdZOne.getInstance(activity).Show_Next_InterstitialAd(activity, new MyAdZOne.MyCallback() {
-                                            public void callbackCall() {
-                                                AD_MOB_SPLASH_INTER_FORCE = "false";
-                                                SuccessloadedRedirect();
-                                            }
-                                        }, 0);
-                                    } else {
+        if (AD_MOB_OpenAd_STATUS.equalsIgnoreCase("true")) {
+            isShowOpen = false;
+            AppOpenManager.OnAppOpenClose onAppOpenClose = new AppOpenManager.OnAppOpenClose() {
+                @Override
+                public void OnAppOpenFailToLoad() {
+                    if (isShowOpen) {
+                        isShowOpen = false;
+                        final Handler handler = new Handler();
+                        handler.postDelayed(new Runnable() {
+                            @Override
+                            public void run() {
+                                MyAdZOne.appOpenFailLoadeds(new MyAdZOne.OnAdListner() {
+                                    @Override
+                                    public void OnClose() {
                                         if (AD_MOB_OpenAd_Fails_INTER_SHOW.equalsIgnoreCase("true")) {
                                             MyAdZOne.getInstance(activity).Show_Next_InterstitialAd(activity, new MyAdZOne.MyCallback() {
                                                 public void callbackCall() {
@@ -280,27 +276,52 @@ public class GetLoadAsds {
                                             SuccessloadedRedirect();
                                         }
                                     }
-                                }
-                            });
-                        }
-                    }, 3500);
+                                });
+                            }
+                        }, AD_MOB_APP_OPEN_TIMER);
+                    }
                 }
-            }
 
-            @Override
-            public void OnAppOpenClose() {
-                if (isShowOpen) {
-                    isShowOpen = false;
-                    SuccessloadedRedirect();
+                @Override
+                public void OnAppOpenClose() {
+                    if (isShowOpen) {
+                        isShowOpen = false;
+                        SuccessloadedRedirect();
+                    }
                 }
-            }
-        };
-        isShowOpen = true;
-        appOpenManager = new AppOpenManager(Applicationclass.getInstant(), onAppOpenClose);
+            };
+            isShowOpen = true;
+            appOpenManager = new AppOpenManager(Applicationclass.getInstant(), onAppOpenClose);
+        } else if (AD_MOB_SPLASH_INTER_FORCE.equalsIgnoreCase("true")) {
+
+            Constant_Super.Splash_Appopen_state = false;
+
+            isShowOpen = true;
+            appOpenManager = new AppOpenManager(Applicationclass.getInstant(), null);
+
+            final Handler handler = new Handler();
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    MyAdZOne.getInstance(activity).Show_Next_InterstitialAd(activity, new MyAdZOne.MyCallback() {
+                        public void callbackCall() {
+                            Constant_Super.Splash_Appopen_state = true;
+                            SuccessloadedRedirect();
+                        }
+                    }, 0);
+                }
+            }, AD_MOB_SPLASH_INTER_TIMER);
+        } else {
+            SuccessloadedRedirect();
+        }
     }
 
     public void SuccessloadedRedirect() {
-        activity.startActivity(intent);
+        mySpalshCallback = Constant_Super.mySpalshCallback;
+        if (mySpalshCallback != null) {
+            mySpalshCallback.onSuccessSplashMethod();
+            mySpalshCallback = null;
+        }
     }
 
     public static boolean isNetworkAvailable(Activity contnex) {

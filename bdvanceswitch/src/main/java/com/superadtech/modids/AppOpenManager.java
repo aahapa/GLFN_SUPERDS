@@ -28,13 +28,10 @@ import java.util.Objects;
 public class AppOpenManager implements Application.ActivityLifecycleCallbacks, LifecycleObserver {
     private static final String LOG_TAG = "AppOpenManager";
     private AppOpenAd appOpenAd = null;
-
     private AppOpenAd.AppOpenAdLoadCallback loadCallback;
     private Activity activity;
     private static boolean isShowingAd = false;
-
     private final Application myApplication;
-
     OnAppOpenClose onAppOpenClose;
     boolean adsLoadnow = false;
     int myids1;
@@ -71,64 +68,52 @@ public class AppOpenManager implements Application.ActivityLifecycleCallbacks, L
         loadCallback = new AppOpenAd.AppOpenAdLoadCallback() {
             @Override
             public void onAdLoaded(AppOpenAd ad) {
+                Log.d("appopenads", "AppOpen AdLoaded: success");
                 AppOpenManager.this.appOpenAd = ad;
                 if (myids1 == 1) {
                     myids1 = 0;
-                    showAdIfAvailable();
+                    if(Constant_Super.Splash_Appopen_state){
+                        showAdIfAvailable();
+                    }
                 }
             }
 
             @Override
             public void onAdFailedToLoad(LoadAdError loadAdError) {
                 onAppOpenClose.OnAppOpenFailToLoad();
-
             }
         };
         AdRequest request = getAdRequest();
 
         if (adsLoadnow) {
-            if (AD_MOB_SPLASH_INTER_FORCE.equalsIgnoreCase("true")) {
-                AppOpenAd.load(myApplication, "1xz" + AD_MOB_APP_ID_OpenAd1, request,
-                        AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT, loadCallback);
-            } else {
-                if (Objects.equals(AD_MOB_OpenAd_STATUS, "true")) {
-                    if (!Objects.equals(AD_MOB_APP_ID_OpenAd1, "")) {
-                        AppOpenAd.load(myApplication, String.valueOf(AD_MOB_APP_ID_OpenAd1), request,
-                                AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT, loadCallback);
-                    }
-                } else {
-                    AppOpenAd.load(myApplication, "1xz" + AD_MOB_APP_ID_OpenAd1, request,
-                            AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT, loadCallback);
-                }
-            }
+            AppOpenAd.load(myApplication, String.valueOf(AD_MOB_APP_ID_OpenAd1), request,
+                    AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT, loadCallback);
         }
     }
 
     public void showAdIfAvailable() {
         if (!isShowingAd && isAdAvailable()) {
-            FullScreenContentCallback fullScreenContentCallback =
-                    new FullScreenContentCallback() {
-                        @Override
-                        public void onAdDismissedFullScreenContent() {
-                            AppOpenManager.this.appOpenAd = null;
-                            isShowingAd = false;
-                            fetchAd();
-                            onAppOpenClose.OnAppOpenClose();
-                        }
+            FullScreenContentCallback fullScreenContentCallback = new FullScreenContentCallback() {
+                @Override
+                public void onAdDismissedFullScreenContent() {
+                    AppOpenManager.this.appOpenAd = null;
+                    isShowingAd = false;
+                    fetchAd();
+                    onAppOpenClose.OnAppOpenClose();
+                }
 
-                        @Override
-                        public void onAdFailedToShowFullScreenContent(AdError adError) {
-                        }
+                @Override
+                public void onAdFailedToShowFullScreenContent(AdError adError) {
+                }
 
-                        @Override
-                        public void onAdShowedFullScreenContent() {
-                            isShowingAd = true;
-                        }
-                    };
+                @Override
+                public void onAdShowedFullScreenContent() {
+                    isShowingAd = true;
+                }
+            };
 
             appOpenAd.setFullScreenContentCallback(fullScreenContentCallback);
             appOpenAd.show(activity);
-
         } else {
             fetchAd();
         }
@@ -148,12 +133,12 @@ public class AppOpenManager implements Application.ActivityLifecycleCallbacks, L
 
     @Override
     public void onActivityStarted(@NonNull Activity activity) {
-        activity = activity;
+        this.activity = activity;
     }
 
     @Override
     public void onActivityResumed(@NonNull Activity activity) {
-        activity = activity;
+        this.activity = activity;
     }
 
     @Override
@@ -168,12 +153,11 @@ public class AppOpenManager implements Application.ActivityLifecycleCallbacks, L
 
     @Override
     public void onActivitySaveInstanceState(@NonNull Activity activity, @NonNull Bundle bundle) {
-
     }
 
     @Override
     public void onActivityDestroyed(@NonNull Activity activity) {
-        activity = null;
+        this.activity = null;
     }
 
     @OnLifecycleEvent(ON_START)
@@ -181,4 +165,5 @@ public class AppOpenManager implements Application.ActivityLifecycleCallbacks, L
         showAdIfAvailable();
         Log.e(LOG_TAG, "onStart");
     }
+
 }

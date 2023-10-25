@@ -36,7 +36,7 @@ public class MyAminManage {
         return myAminManage;
     }
 
-    public void ADSinit(final Activity activity1, Intent intent1, String url1, final int cversion) {
+    public void ADSinit(final Activity activity1, GetLoadAsds.MySpalshCallback mySpalshCallback, String url1, final int cversion) {
         if (!url1.isEmpty()) {
             need_internet1 = true;
         } else {
@@ -88,7 +88,7 @@ public class MyAminManage {
         mysharedpreferences = activity.getSharedPreferences(activity.getPackageName(), Context.MODE_PRIVATE);
 
         try {
-            GetLoadAsds.getInstance(activity1).sendRequest(url1, intent1, cversion);
+            GetLoadAsds.getInstance(activity1).sendRequest(url1, mySpalshCallback, cversion);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

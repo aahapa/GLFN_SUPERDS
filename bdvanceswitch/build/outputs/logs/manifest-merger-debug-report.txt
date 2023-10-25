@@ -1,67 +1,71 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:2:1-28:12
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:2:11-69
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:5:5-67
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:5:22-64
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:6:5-79
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:6:22-76
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:7:5-76
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:7:5-76
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:7:22-73
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:7:22-73
 uses-permission#com.google.android.gms.permission.AD_ID
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:8:5-78
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:8:5-78
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:8:22-76
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:8:22-76
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:9:22-107
 application
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:10:5-26:19
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:12:5-28:19
 	android:supportsRtl
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:16:9-35
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:14:9-41
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:16:9-41
 	android:roundIcon
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:15:9-43
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:17:9-43
 	android:icon
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:13:9-38
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:15:9-38
 	android:allowBackup
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:12:9-35
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:14:9-35
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:11:9-63
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:13:9-63
 meta-data#com.google.android.gms.ads.AD_MANAGER_APP
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:18:9-20:36
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:20:9-22:36
 	android:value
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:20:13-33
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:22:13-33
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:19:13-69
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:21:13-69
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:22:9-24:69
+ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:24:9-26:69
 	android:value
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:24:13-67
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:26:13-67
 	android:name
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml:23:13-69
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml:25:13-69
 uses-sdk
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
-INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
+INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
-		ADDED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
-		INJECTED from G:\AAHAPA\Ads_Class\Google_Facebook_Ad_Class\bdvanceswitch\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
+		ADDED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml
+		INJECTED from G:\AAHAPA\Ads_Class\GLFN_SUPERDS\bdvanceswitch\src\main\AndroidManifest.xml

@@ -1,9 +1,9 @@
-#Wed Oct 11 02:48:53 IST 2023
-base.0=G\:\\AAHAPA\\Ads_Class\\Google_Facebook_Ad_Class\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=G\:\\AAHAPA\\Ads_Class\\Google_Facebook_Ad_Class\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\7\\classes.dex
-base.2=G\:\\AAHAPA\\Ads_Class\\Google_Facebook_Ad_Class\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.3=G\:\\AAHAPA\\Ads_Class\\Google_Facebook_Ad_Class\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.4=G\:\\AAHAPA\\Ads_Class\\Google_Facebook_Ad_Class\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Wed Oct 25 16:29:25 IST 2023
+base.0=G\:\\AAHAPA\\Ads_Class\\GLFN_SUPERDS\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=G\:\\AAHAPA\\Ads_Class\\GLFN_SUPERDS\\app\\build\\intermediates\\dex\\debug\\mergeLibDexDebug\\7\\classes.dex
+base.2=G\:\\AAHAPA\\Ads_Class\\GLFN_SUPERDS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=G\:\\AAHAPA\\Ads_Class\\GLFN_SUPERDS\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+base.4=G\:\\AAHAPA\\Ads_Class\\GLFN_SUPERDS\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
 path.0=classes.dex
 path.1=7/classes.dex
 path.2=0/classes.dex
